@@ -40,6 +40,7 @@ public class UpsTest {
 			driver = new FirefoxDriver();
 			// driver.get("http://www.naukri.com/");
 			// driver.get("http://www.seleniumeasy.com/test/window-popup-modal-demo.html");
+			System.out.println("Hello world!!");
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
